@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./img/logo-cafe.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- AOS JS -->
+  <title>Cafeteria do dev</title>
+</head>
+
+<body>
+  <header>
+    <!-- inicio do header  -->
+    <div class="container-header">
+      <div class="div-logo">
+        <a href="#">
+          <img src="./img/logo-cafe.png" alt="logo-cafe" class="div-logo-img" />
+          Cafeteria do dev
+        </a>
+      </div>
+
+      <div class="div-list">
+        <ul class="menu-list">
+          <li><a href="#" class="menu-link">Home</a></li>
+          <li><a href="#" class="menu-link">Serviços</a></li>
+          <li><a href="#" class="menu-link">Sobre</a></li>
+        </ul>
+
+        <button class="button-list">
+          Pedido
+          <img src="./img/icon-coffe-button.png" alt="icone-café-button" class="img-button-links" />
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- fim do header  -->
+
+  <!-- inicio da main -->
+  <main>
+    <div
+    class="container-home" data-aos="flip-up">
+      <div class="grid">
+        <div class="div-text-home">
+          <h1 class="h1-text-home">
+            Nós servimos o <span class="span-h1-home">Café</span> mais
+            rico da cidade.
+          </h1>
+
+          <div>
+            <button class="button-home">Café e Código</button>
+          </div>
+        </div>
+
+        <div>
+          <img src="./img/cafe-2.png" alt="image-cafe" class="img-home" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- fim da main -->
+
+  <!-- inicio da sectiom -->
+  <section class="section-services">
+    <div class="container-services" data-aos="fade-up" data-aos-delay="100">
+      <h1 class="title-section-services">O café feito para vovê</h1>
+    </div>
+
+    <div class="div-cards">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="350">
+        <div class="div-card-image">
+          <img class="image-card" src="./img/american (1).png" alt="café americano" />
+        </div>
+
+        <div class="div-text-services-card">
+          <h1 class="h1-card-services">Americano</h1>
+          <p class="p-card-service">
+            O café americano é uma bebida simples e popular, composta por café expresso diluído com água quente,
+            resultando em uma bebida mais suave e menos técnicas do que o expresso puro
+          </p>
+        </div>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="div-card-image">
+          <img class="image-card" src="./img/cafe-expresso.png" alt="café Expresso" />
+        </div>
+
+        <div class="div-text-services-card">
+          <h1 class="h1-card-services">Expresso</h1>
+          <p class="p-card-service">
+            O café expresso é uma bebida especializada e intensa feita a partir de grãos de café finamente moídos,
+             que são pressionados com água quente sob alta pressão, geralmente em uma máquina de café expresso.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="div-card-image">
+          <img class="image-card" src="./img/capuccino.png" alt="café Cappuccino" />
+        </div>
+
+        <div class="div-text-services-card">
+          <h1 class="h1-card-services">Cappuccino</h1>
+          <p class="p-card-service">
+            O cappuccino é uma bebida de café originária da Itália, famosa pelo seu equilíbrio entre café expresso,
+            leite vaporizado e espuma de leite. Tradicionalmente, é composto por três partes em proporções iguais:
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fim da sectiom -->
+
+
+
+
+   <!-- inicio do footer-->
+    <footer>
+      <div class="div-logo div-logo-footer">
+        <a href="#">
+          <img  class="div-logo-img" src="./img/logo-cafe.png" alt="logo-cafe">
+          Cafeteria do dev
+        </a>
+        <p class="p-footer">Desenvolvido por Zenaldo | © 2024 Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- final do footer-->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 200
+    });
+  </script>
+</body>
+
+</html>
